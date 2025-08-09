@@ -119,6 +119,7 @@ if teacher_mode:
     st.divider()
 
 st.title("Pause • Probe • Plan")
+
 st.caption("A warm, friendly chat to help you steady your body, name your feelings, and make a plan that matches your best self.")
 
 # --- Chat state ---
@@ -355,3 +356,4 @@ st.session_state["hotline_text"] = hotline
 if st.session_state.step == "done":
     if st.button("Start again (new student)"):
         reset_chat()
+
